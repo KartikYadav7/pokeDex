@@ -1,12 +1,37 @@
-# React + Vite
+## Pokédex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+The Pokédex Project is a web-based application that allows users to browse, search, and explore a vast collection of Pokémon. It provides detailed information such as types, abilities, evolutions, and more. The project is built using React, Node.js, and MongoDB, with a focus on a seamless and interactive user experience.
 
-Currently, two official plugins are available:
+## Features
+Pokémon Database - View detailed information about each Pokémon.
+Search & Filter - Find Pokémon by name, type, or generation.
+Dynamic UI - Styled with Tailwind CSS .
+Responsive Design - Works smoothly on both desktop and some mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+Frontend: React, Tailwind CSS
+API: PokéAPI
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+1.Clone the repository:
+git clone https://github.com/your-username/pokedex-project.git
+cd pokedex-project
+
+2.Install dependencies:
+npm install
+
+3.Start the Project :
+npm run dev
+Open the application in your browser:
+
+## Usage
+1.Browse and search for Pokémon.
+2.View detailed stats, abilities, and evolutions.
+
+## Contributing
+Contributions are welcome! Feel free to fork the repository, create a new branch, and submit a pull request.
+
+
+
