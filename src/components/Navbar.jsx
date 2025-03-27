@@ -72,7 +72,7 @@ const Navbar = () => {
     <>
       <div className="flex flex-col items-center justify-between mr-0 space-x-0  space-y-4 p-2 md:flex-row md:space-y-0 md:space-x-2 md:mr-8">
         <div className="flex items-center ">
-        <img src="../../public/pokeBall.svg" alt="pokeBall"
+        <img src="./pokeBall.svg" alt="pokeBall"
         className="w-12 h-12" />
         
           <h1 className="text-5xl">PokeDex</h1>
