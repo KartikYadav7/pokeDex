@@ -36,8 +36,8 @@ const MovesComponent = ({ initialMovesData }) => {
     fetchMoves();
   }, [initialMovesData]);
 
-  if (loadingMoves) return
-  if (!movesData.length) return 
+  if (loadingMoves) return  <div>Loading moves...</div>;
+  if (!movesData.length) return <div>No moves found.</div>;
   return (
     <div className="p-2">
       {/* <h2 className="text-lg font-bold">Moves</h2> */}
@@ -48,11 +48,11 @@ const MovesComponent = ({ initialMovesData }) => {
             <strong className="inline-block capitalize text-white ">
               {move.name}
             </strong>
-            <span className="capitalize px-2 text-gray-400">{move.type}</span>
-            <div className="text-gray-400 grid grid-cols-3">
+            <span className="capitalize md:px-2 text-gray-400">{move.type}</span>
+            <div className="text-gray-400 grid grid-cols-1 md:grid-cols-3 ">
               <span className="">Power {move.power}</span>
               <span>Accuracy {move.accuracy}</span> 
-                <span>PP {move.pp}</span>
+                <span className="md:mx-2">  PP {move.pp}</span>
             </div>
           </li>
         ))}
