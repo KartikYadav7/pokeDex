@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+body{
+    @apply  bg-gray-900 text-white;
+}
+.infoClass{
+    @apply flex bg-gray-600 p-1 rounded-lg justify-between
+}
